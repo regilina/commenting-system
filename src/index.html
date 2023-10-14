@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>commenting system</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@0;1&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+    </style>
+    <link rel="stylesheet" href="styles/reset.css">
+		<link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/exceptions.css">
+    <script src="script.js"></script>
+  </head>
+  <body class="body">
+  	<header class="header"></header>
+    <div class="aside-main-container">
+      <aside class="aside"></aside>    
+      <main>
+        <div class="main-container">
+          <div class="media-container">
+            <div class="media" id="media-1"></div>
+            <div class="media" id="media-2"></div>
+            <div class="media"></div>
+            <div class="media"></div>
+            <div class="media"></div>
+            <div class="media"></div>
+            <div class="media"></div>
+            <div class="media"></div>
+          </div>
+          <div class="big-media"></div>
+          <hr class="line">
+          <div class="controls">
+            <div>
+              <button class="comments-button">Комментарии</button>
+            </div>
+            <div>
+              <span class="sort">По количеству оценок</span>
+              <span class="favorites">Избранное</span>
+            </div>
+          </div>
+          <section class="comments-section">
+            <div class="your-comment-container">
+              <div class="avatar">
+                <img src="../img/avatar-maksim-avdeenko.png">
+                <div class="user-name user-name-mobile">Максим Авдеенко</div>
+              </div>
+              <form class="form">
+                <div class="input-button-container">
+                  <div class="label-input-container">
+                    <div class="message-info">
+                      <label for="message" class="user-name user-name-desktop">Максим Авдеенко</label>
+                      <label for="message" class="label">Макс. 1000 символов</label>
+                    </div>
+                    <input type="text" class="message" id="message" placeholder="Введите текст сообщения...">
+                  </div>
+                  <button type="submit" class="send-button">Отправить</button>
+                </div>
+              </form>
+            </div>
+            <div class="comment-container">
+              <div class="avatar">
+                <img src="../img/avatar-alex.png">
+                <div class="comment-info comment-info-mobile">
+                  <span class="user-name">Алексей_1994b</span>
+                  <span class="time">15.01 13:55</span>
+                </div>
+              </div>
+              <div class="comment-info-container">
+                <div class="comment-info comment-info-desktop">
+                  <span class="user-name">Алексей_1994b</span>
+                  <span class="time">15.01 13:55</span>
+                </div>
+                <div class="comment">
+                  <p>Самое обидное когда сценарий по сути есть - в виде книг, где нет сюжетных дыр, всё логично, стройное повествование и достаточно взять и экранизировать 
+                    оригинал как это было в первых фильмах с минимальным количеством отсебятины и зритель с восторгом примет любой такой фильм и сериал, однако вместо этого
+                    'Кольца власти' просто позаимствовали имена из оригинала, куски истории, мало связанные между собой и выдали очередной среднячковый сериал на один раз в
+                    лучшем случае.</p>
+                </div>
+                <div class="answer-button-in-favorites-container">
+                  <button class="answer-button">Ответить</button>
+                  <span class="in-favorites">В избранном</span>
+                </div>
+                <div class="comment-container reply-comment-container">
+                  <div class="avatar">
+                    <img src="../img/avatar-junbox.png">
+                    <div class="comment-info comment-info-mobile">
+                      <span class="user-name">Джунбокс3000</span>
+                      <span class="time">15.01 13:55</span>
+                    </div>
+                  </div>
+                  <div class="comment-info-container">
+                    <div class="comment-info comment-info-desktop">
+                      <div class="user-name">Джунбокс3000</div>
+                      <span class="time">15.01 13:55</span>
+                    </div>
+                    <div class="comment">
+                      <p>Наверное, самая большая ошибка создателей сериала была в том, что они поставили уж слишком много надежд на поддержку фанатов вселенной. Как оказалось 
+                        на деле, большинство 'фанатов' с самой настоящей яростью и желчью стали уничтожать сериал, при этом объективности в отзывах самый минимум.</p>
+                    </div>
+                    <div class="answer-button-in-favorites-container">
+                      <span class="in-favorites">В избранноe</span>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

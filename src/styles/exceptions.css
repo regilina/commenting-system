@@ -1,0 +1,131 @@
+@media screen and (min-width: 320px) and (max-width: 1439px) {
+  .media-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+  }
+
+  .main-container {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+   }
+
+  .media {
+    display: none;
+  }
+
+  #media-1, #media-2 {
+    display:block;
+  }
+
+  .header {
+    height: 68px;
+    margin-bottom: 30px;
+  }
+
+  .aside {
+    display: none;
+  }
+
+  .aside-main-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .big-media {
+    margin-top: 20px;
+    margin-bottom: 31px;
+  }
+
+  .line {
+    height: 2px;
+    margin-bottom: 13px;
+  }
+
+  .controls {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+  }
+
+  .your-comment-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form {
+    margin-left: 0;
+  }
+
+  .input-button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+    width: 100%;
+  }
+
+  .send-button {
+    max-width: 300px;
+    height: 50px; 
+    width: 100%;
+    align-self: center;
+  }
+
+  .message {
+    max-width: 100%;
+    height: 50px;
+  }
+
+  .avatar {
+    display: flex;
+  }
+
+  .label-input-container {
+    max-width: none;
+  }
+
+  .label {
+    margin-bottom: 11px;
+    align-self: flex-end;
+    margin-top: -6px;
+  }
+
+  .user-name-desktop {
+    display: none;
+  }
+
+  .user-name-mobile {
+    display: block;
+    margin-left: 18px;
+    align-self: center;
+  }
+
+  .message-info {
+    justify-content: end;
+  }
+
+  .comment-info-mobile {
+    display: flex;
+    align-self: center;
+    margin-left: 18px;
+  }
+
+  .comment-info-desktop {
+    display: none;
+  }
+
+  .comment-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 29px;
+  }
+
+  .comment-info-container {
+    margin-left: 0;
+  }
+}
+

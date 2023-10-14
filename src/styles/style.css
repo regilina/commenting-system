@@ -1,0 +1,177 @@
+body * {
+  box-sizing: border-box;
+}
+
+.media-container {
+  display: grid;
+  grid-template-columns: repeat(2, 487px); 
+  grid-template-rows: repeat(4, 61px);
+  column-gap: 48px;
+  row-gap: 30px;
+}
+
+.media {
+  max-width: 487px;
+  min-width: 300px;
+  width: 100%;
+  height: 61px;
+  flex-grow: 1;
+}
+
+.main-container {
+  max-width: 1022px;
+}
+
+.big-media {
+  width: 100%;
+  height: 168px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.header {
+  height: 101px;
+  margin-bottom: 40px;
+}
+
+.header, .aside, .media, .big-media, .line, .send-button {
+  background-color: #D9D9D9;
+}
+
+.aside {
+  width: 203px;
+  flex: 0 1 auto;
+}
+
+.aside-main-container {
+  display: flex;
+  gap: 86px;
+}
+
+.line {
+  height: 3px;
+  width: 100%;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.controls {
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: row;
+}
+
+.comments-button {
+  margin-right: 55px;
+}
+
+.favorites {
+  margin-left: 50px;
+}
+
+.your-comment-container, .comment-container {
+  display: flex;
+  width: 100%;
+}
+
+.message-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.message {
+  height: 61px;
+  max-width: 688px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.20);
+  padding-left: 30px;
+  padding-right: 20px;
+}
+
+.message:focus {
+  outline: none;
+}
+
+.send-button {
+  width: 213px;
+  height: 61px; 
+  border-radius: 5px;
+  color: #A1A1A1;
+  border: none;
+  justify-self: end;
+  align-self: flex-end;
+}
+
+.input-button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.form {
+  width: 100%;
+  margin-left: 18px;
+}
+
+.comments-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.avatar img {
+  border-radius: 50%;
+  overflow: hidden; /* Это свойство скроет углы изображения за пределами круга. */
+  width: 61px; /* Установите желаемую ширину и высоту */
+  height: 61px; /* Установите желаемую ширину и высоту */
+}
+
+.label-input-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 688px;
+}
+
+.label {
+  align-self: flex-end;
+  margin-bottom: 20px;
+}
+
+.user-name-mobile {
+  display: none;
+}
+
+.comment-info-mobile {
+  display: none;
+}
+
+.comment-info-container {
+  margin-left: 18px;
+}
+
+.comment-container {
+  margin-top: 40px;
+}
+
+.time {
+  margin-left: 15px;
+}
+
+.comment {
+  margin-top: 10px;
+}
+
+.answer-button-in-favorites-container {
+  margin-top: 15px;
+}
+
+.answer-button {
+  margin-right: 18.75px;
+}
+
+
+
+
