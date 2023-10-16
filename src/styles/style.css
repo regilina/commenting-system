@@ -1,5 +1,11 @@
 body * {
   box-sizing: border-box;
+  color: #000;
+  font-family: 'Inter';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .media-container {
@@ -59,14 +65,8 @@ body * {
   margin-bottom: 32px;
   display: flex;
   flex-direction: row;
-}
-
-.comments-button {
-  margin-right: 55px;
-}
-
-.favorites {
-  margin-left: 50px;
+  gap: 50px;
+  align-items: center;
 }
 
 .your-comment-container, .comment-container {
@@ -138,10 +138,17 @@ body * {
 .label {
   align-self: flex-end;
   margin-bottom: 20px;
+  font-size: 14px;
+  font-style: italic;
 }
 
 .user-name-mobile {
   display: none;
+}
+
+.user-name {
+  color: #122AC0;
+  font-weight: 500;
 }
 
 .comment-info-mobile {
@@ -158,20 +165,105 @@ body * {
 
 .time {
   margin-left: 15px;
+  color: #000;
+  font-size: 14px;
 }
 
 .comment {
   margin-top: 10px;
 }
 
-.answer-button-in-favorites-container {
+.reply-button-in-favorites-container {
   margin-top: 15px;
+  display: flex;
 }
 
-.answer-button {
+.reply-button {
   margin-right: 18.75px;
+  border: none;
+  background: none;
 }
 
+.reply-button-container, .in-favorites-container {
+  display: flex;
+  gap: 7px;
+  align-items: center;
+}
 
+.comments-button-container {
+  display: flex;
+  gap: 13px;
+  border-bottom: 3px solid #000;
+  max-width: 187px;
 
+}
+
+.comments-button {
+  border: none;
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  background: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.number-of-comments {
+  align-self: center;
+}
+
+.sort, .favorites, .label, .reply-button, .in-favorites, .number-of-comments, .time, .whom {
+  color: #A1A1A1;
+}
+
+.sort, .favorites {
+  font-size: 16px;
+  text-decoration-line: underline;
+}
+
+.sort {
+  margin-right: 4px;
+}
+
+.favorites {
+  margin-left: 50px;
+  margin-right: 9.5px;
+}
+
+.time {
+  align-self: center;
+}
+
+.sort-favorites-container {
+  display: flex;
+  align-items: center; 
+}
+
+.sort-container, .favorites-container, .in-favorites-container {
+  display: flex;
+  align-items: center;
+}
+
+.user-name-reply-whom-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-name-reply-whom-container img {
+  width: 26px;
+  height: 25px;
+}
+
+.reply-whom {
+  display: flex;
+  margin-left: 13px;
+  gap: 13px;
+}
+
+.comment-info-desktop {
+  display: flex;
+}
 

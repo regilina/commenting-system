@@ -49,6 +49,7 @@
     display: flex;
     flex-direction: column;
     gap: 19px;
+    align-items: start;
   }
 
   .your-comment-container {
@@ -125,6 +126,27 @@
   }
 
   .comment-info-container {
+    margin-left: 0;
+  }
+
+  .time {
+    font-size: 12px;
+  }
+
+  .favorites {
+    margin-left: 25px;
+  }
+
+  .sort, .favorites {
+    font-size: 14px;
+  }
+
+  .comment p {
+    font-size: 16px;
+  }
+  
+  .reply-whom {
+    margin-top: 10px;
     margin-left: 0;
   }
 }
